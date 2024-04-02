@@ -1,0 +1,12 @@
+// create variable for hit points and attack points
+// -- HP and AP values may not be negative 
+//     (set to zero, if they would otherwise be negative)
+//-- create initial state
+//  calculate points function
+//   create function to update state
+// ---
+// if HP is 0 chance walk element to dead
+//If the Freaky Fungus runs out of HP, the monster is dead and you win
+//----
+//If AP is, Replace the `walk` class with a `jump` class on the freaky-fungus element.
+// if AP is `0`. Give all of the attack buttons a [`disabled`]

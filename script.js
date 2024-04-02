@@ -1,4 +1,7 @@
 // State Variables can be declared outside of the onReady
+let freakyFungusHP = 100;
+let myPlayerAP = 100;
+
 // Feel free to make this to what you want!
 // Example:
 // let fungusHP = 100;
@@ -18,3 +21,14 @@ function onReady() {
 
 
 onReady()
+
+function attackArcaneScepter(event) {
+    const apCost = 12;
+    const hpDamage = 14;
+} if (myPlayerAP >= apCost) {
+    // If enough AP, update AP and enemy HP
+    updatePlayerAP(apCost);
+    updateEnemyHP(hpDamage);
+} else {
+    console.log("Not enough AP to perform Arcane Scepter attack!");
+}
